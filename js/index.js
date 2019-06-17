@@ -46,8 +46,9 @@ const siteContent = {
         "1" : "Pre-Construction",
         "2" : "Construction",
         "3" : "Design Build",
-        "4" : "Sustainability"
-
+        "4" : "Sustainability",
+        // Contact 
+        "5" : "Submit"
     }, 
     
     "footer" : {
@@ -70,8 +71,13 @@ const siteContent = {
         "10" : "THE BLOCKS",
         // Headers For Services Page
         "11" : "Services",
-        
-        
+        // Headers for Contact 
+        "12" : "Contact Us",
+        "13" : "Get In Touch",
+        "14" : "Email Address",
+        "15" : "Enter Email",
+        "16" : "We'll never share your email with anyone else.", 
+        "17" : "Where We Work"       
     },
     
     "header" : {
@@ -79,9 +85,10 @@ const siteContent = {
     },
     // Images 
     "img" : {
-
+        // Nav Bar
         "0" : "img/nav-hamburger.png",
         "1" : "img/nav-hamburger-close.png",
+        // Index
         "2" : "img/home/home-img-1.png",
         "3" : "img/home/home-img-2.png",
         "4" : "img/home/home-jumbotron.png",
@@ -94,6 +101,7 @@ const siteContent = {
         "11" : "img/home/home-outskirts-img.png",
         "12" : "img/home/home-the-blocks-img.png",
         "13" : "img/home/home-villas-img.png",
+        // Services
         "14" : "img/services/services-jumbotron.png",
         "15" : "img/services/services-mobile-jumbotron.png",
         "16" : "img/services/services-tab-construction-img.png",
@@ -104,8 +112,19 @@ const siteContent = {
         "21" : "img/services/services-tab-mobile-sustainability-img.png",
         "22" : "img/services/services-tab-pre-construction-img.png",
         "23" : "img/services/services-tab-sustainability-img.png",
+        // Contact 
         "24" : "img/contact/contact-jumbotron.png",
         "25" : "img/contact/contact-mobile-jumbotron.png"
+
+    },
+
+    // Input (radio button) Contacts 
+    "input" : {
+
+        "0" : "I am a small business",
+        "1" : "I am a residential owner",
+        "2" : "I am a corporation",
+
 
     },
 
