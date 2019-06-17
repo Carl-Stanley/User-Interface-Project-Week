@@ -59,9 +59,10 @@ const siteContent = {
         "7" : "Recent Projects",        
         "8" : "THE VILLAS",
         "9" : "OUTSKIRTS",
-        "10" : "THE BLOCKS"
+        "10" : "THE BLOCKS",
         // Headers For Services Page
-
+        "11" : "Services",
+        "12" : "",
 
     },
     
@@ -86,16 +87,17 @@ const siteContent = {
         "4" : "The Outskirts are amazing to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution.",
         "5" : "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.",
         "6" : "The Blocks are amazing to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. ",
-        "7" : "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line." 
+        "7" : "Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.", 
         // P for Services Page
-
+        "8" : "Services include: completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.",
+        "9" : 'Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service. Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.'
 
     }    
 
 };
 
 // Main page Load Class. 
-class pageLoad {
+class loadPage {
     constructor(pageID) {
 
         this.pageID = pageID;
@@ -109,6 +111,6 @@ class pageLoad {
 
 };
 
-const newpage = new pageLoad(pageID);
+const newpage = new loadPage(pageID);
 
 //newpage.tellMePage();
