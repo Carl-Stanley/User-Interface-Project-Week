@@ -81,3 +81,8 @@ const siteContentServices = {
     }    
 
 };
+
+// Page ID What page am I on?
+// 1 = Index, 2 = Services
+var pageID = 0;
+
