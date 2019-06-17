@@ -42,7 +42,13 @@ const siteContent = {
     }    
 
 };
-// Page ID What page am I on?
-// 1 = Index, 2 = Services, 3 = Contact
-var pageID = 0;
 
+// Main page Load Class. 
+class pageLoad {
+    constructor(pageID) {
+
+        this.pageID = pageID;
+
+    }
+
+}
