@@ -41,19 +41,21 @@ const siteContent = {
     },
 
     "button" : {
+        // Index Buttons
         "0" : "Learn More",
+        "1" : "View Designs",
         // Services Buttons
-        "1" : "Pre-Construction",
-        "2" : "Construction",
-        "3" : "Design Build",
-        "4" : "Sustainability",
+        "2" : "Pre-Construction",
+        "3" : "Construction",
+        "4" : "Design Build",
+        "5" : "Sustainability",
         // Contact 
-        "5" : "Submit"
+        "6" : "Submit"
     }, 
     
     "footer" : {
         // Footer all pages
-        "1" : "Interested in starting a project?<br>Let’s talk:"
+        "0" : "Interested in starting a project?<br>Let’s talk:"
     },
 
     "H" : {
@@ -64,20 +66,19 @@ const siteContent = {
         "3" : "Progress.",  
         "4" : "Smith & Jones Architects",
         "5" : "Futuristic Designs",
-        "6" : "View Designs",
-        "7" : "Recent Projects",        
-        "8" : "THE VILLAS",
-        "9" : "OUTSKIRTS",
-        "10" : "THE BLOCKS",
+        "6" : "Recent Projects",        
+        "7" : "THE VILLAS",
+        "8" : "OUTSKIRTS",
+        "9" : "THE BLOCKS",
         // Headers For Services Page
-        "11" : "Services",
+        "10" : "Services",
         // Headers for Contact 
-        "12" : "Contact Us",
-        "13" : "Get In Touch",
-        "14" : "Email Address",
-        "15" : "Enter Email",
-        "16" : "We'll never share your email with anyone else.", 
-        "17" : "Where We Work"       
+        "11" : "Contact Us",
+        "12" : "Get In Touch",
+        "13" : "Email Address",
+        "14" : "Enter Email",
+        "15" : "We'll never share your email with anyone else.", 
+        "16" : "Where We Work"       
     },
     
     "header" : {
