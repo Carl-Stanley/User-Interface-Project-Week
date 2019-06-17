@@ -1,5 +1,5 @@
 // JS goes here
-// Content for Index Page
+// Content for All Pages
 const siteContent = {
 
     "a" : {
@@ -51,4 +51,13 @@ class pageLoad {
 
     }
 
-}
+    //tellMePage() {
+
+      //  alert("PageID:" + this.pageID);
+    //};
+
+};
+
+const newpage = new pageLoad(pageID);
+
+//newpage.tellMePage();
