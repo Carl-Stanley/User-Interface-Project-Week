@@ -4,7 +4,7 @@ const siteContent = {
 
     "a" : {
 
-        "0" : "index.html",
+        "0" : "index.html?pageID=0",
         "1" : "services.html?pageID=1",
         "2" : "contact.html?pageID=2"
 
