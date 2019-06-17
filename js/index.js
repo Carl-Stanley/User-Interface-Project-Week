@@ -1,6 +1,6 @@
 // JS goes here
 // Content for Index Page
-const siteContentIndex = {
+const siteContent = {
 
     "a" : {
 
@@ -42,47 +42,7 @@ const siteContentIndex = {
     }    
 
 };
-
-// Content for Services Page
-const siteContentServices = {
-
-    "a" : {
-
-    },
-    
-    "addresses" : {
-
-
-    },
-    
-    "footer" : {
-
-    },
-
-    "H" : {
-
-        
-
-    },
-    
-    "header" : {
-
-    },
-
-    "menu" : {
-
-        
-
-    },    
-
-    "p" : {
-
-
-    }    
-
-};
-
 // Page ID What page am I on?
-// 1 = Index, 2 = Services
+// 1 = Index, 2 = Services, 3 = Contact
 var pageID = 0;
 
