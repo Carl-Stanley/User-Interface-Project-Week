@@ -4,6 +4,10 @@ const siteContent = {
 
     "a" : {
 
+        "0" : "index.html",
+        "1" : "services.html",
+        "2" : "contact.html"
+
     },
     
     "address" : {
@@ -37,14 +41,18 @@ const siteContent = {
     },
 
     "button" : {
-        "1" : "Learn More"
+        "0" : "Learn More",
+        // Services Buttons
+        "1" : "Pre-Construction",
+        "2" : "Construction",
+        "3" : "Design Build",
+        "4" : "Sustainability"
 
     }, 
     
     "footer" : {
-        // Footer Index Page
+        // Footer all pages
         "1" : "Interested in starting a project?<br>Let’s talk:"
-
     },
 
     "H" : {
@@ -62,11 +70,42 @@ const siteContent = {
         "10" : "THE BLOCKS",
         // Headers For Services Page
         "11" : "Services",
-        "12" : "",
-
+        
+        
     },
     
     "header" : {
+
+    },
+    // Images 
+    "img" : {
+
+        "0" : "img/nav-hamburger.png",
+        "1" : "img/nav-hamburger-close.png",
+        "2" : "img/home/home-img-1.png",
+        "3" : "img/home/home-img-2.png",
+        "4" : "img/home/home-jumbotron.png",
+        "5" : "img/home/home-mobile-img-1.png",
+        "6" : "img/home/home-mobile-img-2.png",
+        "7" : "img/home/home-mobile-jumbotron.png",
+        "8" : "img/home/home-mobile-outskirts-img.png",
+        "9" : "img/home/home-mobile-the-blocks-img.png",
+        "10" : "img/home/home-mobile-villas-img.png",
+        "11" : "img/home/home-outskirts-img.png",
+        "12" : "img/home/home-the-blocks-img.png",
+        "13" : "img/home/home-villas-img.png",
+        "14" : "img/services/services-jumbotron.png",
+        "15" : "img/services/services-mobile-jumbotron.png",
+        "16" : "img/services/services-tab-construction-img.png",
+        "17" : "img/services/services-tab-design-build-img.png",
+        "18" : "img/services/services-tab-mobile-construction-img.png",
+        "19" : "img/services/services-tab-mobile-design-build-img.png",
+        "20" : "img/services/services-tab-mobile-pre-construction-img.png",
+        "21" : "img/services/services-tab-mobile-sustainability-img.png",
+        "22" : "img/services/services-tab-pre-construction-img.png",
+        "23" : "img/services/services-tab-sustainability-img.png",
+        "24" : "img/contact/contact-jumbotron.png",
+        "25" : "img/contact/contact-mobile-jumbotron.png"
 
     },
 
