@@ -164,11 +164,27 @@ class loadPage {
 
     tellMePage() {
 
-      alert("PageID:" + this.pageID);
+      console.log(this.pageID);
     };
 
 };
 
+// Get the page ID 
+// 0 = index.html, 1 = services.html, 2 = contact.html
+function getPageID(variable)
+{
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+      
+      return 0;
+}
+
+var pageID = getPageID("pageID");
+
 const newpage = new loadPage(pageID);
 
-//newpage.tellMePage();
+newpage.tellMePage();
