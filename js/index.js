@@ -17,11 +17,11 @@ const siteContent = {
 
     "H" : {
 
-        "1" : "Integrity",
-        "2" : "Excellence",
-        "3" : "Progress.",
-        "4" : "Smith & Jones Architects"
-
+        "1I" : "Integrity", 
+        "2I" : "Excellence",  
+        "3I" : "Progress.",  
+        "4I" : "Smith & Jones Architects"  
+       
     },
     
     "header" : {
