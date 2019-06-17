@@ -155,21 +155,6 @@ const siteContent = {
 
 };
 
-// Main page Load Class. 
-class loadPage {
-    constructor(pageID) {
-
-        this.pageID = pageID;
-
-    }
-
-    tellMePage() {
-
-      console.log(this.pageID);
-    };
-
-};
-
 // Get the page ID 
 // 0 = index.html, 1 = services.html, 2 = contact.html
 function getPageID(variable)
@@ -184,8 +169,25 @@ function getPageID(variable)
       return 0;
 }
 
+// Load pageID value
 var pageID = getPageID("pageID");
+
+// Main page Load Class. 
+class loadPage {
+    constructor(pageID) {
+
+        this.pageID = pageID;
+
+    }
+
+  /*  tellMePage() {
+
+      console.log(this.pageID);
+    };
+  
+    */
+};
 
 const newpage = new loadPage(pageID);
 
-newpage.tellMePage();
+//newpage.tellMePage();
